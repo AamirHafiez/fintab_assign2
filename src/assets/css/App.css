@@ -1,0 +1,50 @@
+/* card */
+
+.card-font{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Order Summary */
+#order-summary{
+    position: relative;
+    /* top: 5vh; */
+    -webkit-border-radius: 25px 25px 0px 0px;
+    border-radius: 25px 25px 0px 0px;
+    overflow: hidden;
+    animation: riseUp;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+@keyframes riseUp{
+    from{
+        transform: translateY(1000px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+#page-next{
+    overflow: hidden;
+}
+
+
+.order-summary-head{
+    font-size: large;
+}
+
+.order-timeline-font{
+    font-size: small;
+}
+
+.bold{
+    font-weight: bold;
+}
+.timeline{
+    border-right: 1px dashed black;
+    height: 90%;
+    left: 22px;
+    position: absolute;
+}
